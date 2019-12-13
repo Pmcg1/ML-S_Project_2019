@@ -8,7 +8,7 @@ This project using Python, Jupyter, SciPy, and Keras has been carried out as an 
 The repository contains a Jupyter Notebook that imports the Boston House Prices dataset. It includes three main sections:
 * Describe: The dataset is assessed using descriptive statistics and plots;
 * Infer: Inferential statistics are applied to the dataset to assess if the difference in median house prices for houses along the Charles River and those not are statistically different;
-* Predict: A neural network is implemented using Keras to predict median house prices from other variables in the dataset.
+* Predict: A neural network is implemented using Keras to predict median house prices from other variables in the dataset. This includes an evaluation of the accuracy of the neural network(s), predictions carried out and compared to target data and a conclusion.
 
 The repository also includes:
 * Readme file
@@ -58,23 +58,20 @@ Please note that this may take some time to install.
 ### Libraries Used
 
 - [Pandas] (https://pandas.pydata.org/): Pandas, particularly its "DataFrame" indexed array object is used to manage and manipulate datasets
-- [Scipy.stats] (https://docs.scipy.org/doc/scipy/reference/stats.html): The t-test function in scipy.stats is used within the "Infer" section
-- ****[Statsmodels.stats] (https://www.statsmodels.org/stable/index.html): The t-test function in sc
+- [Scipy.stats] (https://docs.scipy.org/doc/scipy/reference/stats.html): The t-test function in scipy.stats is used within the "Infer" section, some other statistical tests are used also
 - [Matplotlib.pyplot](https://matplotlib.org/tutorials/introductory/pyplot.html): Used for manipulation of elements of certain plots in the notebook
 - [Seaborn](https://seaborn.pydata.org/): Used for creation and manipulation of all plots in the notebook
-- [NumPy](https://www.numpy.org/): A small number of NumPy functions are used to help generate a correlation heatmap
+- [NumPy](https://www.numpy.org/): A small number of NumPy functions are used to help generate a correlation heatmap and to control seeding of random variables
 - [Scikit-Learn] (https://scikit-learn.org/):
   - sklearn.datasets: Used to import the Boston House Prices dataset only
   - sklearn.model_selection: Used to split the dataset into training and testing datasets
   - sklearn preprocessing: Used to scale the input datasets to improve the performance of Keras models
-  - ****sklearn.decomposition: 
 - [Keras] (https://keras.io/):
-  - keras
   - keras.models: Used to import Keras sequential model type
   - keras.layers: Used to import Dense layers for neural networks
   - keras.callbacks: EarlyStopping callback is imported to stop model runs early once certain conditions are met
 
-Please note that the programmes will not run successfuly if their required libraries are not installed.
+Please note that the programmes will not run successfully if their required libraries are not installed.
 
 ### How to Run
 
