@@ -85,6 +85,6 @@ Once the correct software has been installed, running either of the included pro
 
 5. A window or tab should open in your default web browser (Mozilla Firefox and Google Chrome are recommended). If this does not happen, read the command prompt output. It should provide a URL which you can copy and paste into your web browser to access Jupyter Lab.
 6. Using the menu on the left side of the page, double click the jupyter notebook file:
-> ProgDA_Assessment_1_2019.ipynb
+>  	ML-S_2019.ipynb
 
 7. The notebook should open in a new tab. You can run each cell with the keyboard shortcut SHIFT+ENTER, alternatively use the "play" button on the menu bar. Please note that certain cells must be run before others e.g. the cells importing the various Python libraries. You may find it convenient to use the "Run all Cells" option in the "Run" dropdown menu.
