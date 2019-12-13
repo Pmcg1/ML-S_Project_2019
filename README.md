@@ -57,16 +57,16 @@ Please note that this may take some time to install.
 
 ### Libraries Used
 
-- [Pandas] (https://pandas.pydata.org/): Pandas, particularly its "DataFrame" indexed array object is used to manage and manipulate datasets
-- [Scipy.stats] (https://docs.scipy.org/doc/scipy/reference/stats.html): The t-test function in scipy.stats is used within the "Infer" section, some other statistical tests are used also
+- [Pandas](https://pandas.pydata.org/): Pandas, particularly its "DataFrame" indexed array object is used to manage and manipulate datasets
+- [Scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html): The t-test function in scipy.stats is used within the "Infer" section, some other statistical tests are used also
 - [Matplotlib.pyplot](https://matplotlib.org/tutorials/introductory/pyplot.html): Used for manipulation of elements of certain plots in the notebook
 - [Seaborn](https://seaborn.pydata.org/): Used for creation and manipulation of all plots in the notebook
 - [NumPy](https://www.numpy.org/): A small number of NumPy functions are used to help generate a correlation heatmap and to control seeding of random variables
-- [Scikit-Learn] (https://scikit-learn.org/):
+- [Scikit-Learn](https://scikit-learn.org/):
   - sklearn.datasets: Used to import the Boston House Prices dataset only
   - sklearn.model_selection: Used to split the dataset into training and testing datasets
   - sklearn preprocessing: Used to scale the input datasets to improve the performance of Keras models
-- [Keras] (https://keras.io/):
+- [Keras](https://keras.io/):
   - keras.models: Used to import Keras sequential model type
   - keras.layers: Used to import Dense layers for neural networks
   - keras.callbacks: EarlyStopping callback is imported to stop model runs early once certain conditions are met
